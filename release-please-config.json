@@ -3,6 +3,7 @@
     "release-type": "python",
     "packages": {
         ".": {
+            "initial-version": "0.1.0",
             "package-name": "your-package-name",
             "changelog-path": "CHANGELOG.md",
             "extra-files": [
