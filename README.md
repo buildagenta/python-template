@@ -1,6 +1,6 @@
 # Python Template
 
-A2A Net's template for Python projects that use [Cursor](https://cursor.com/en)/[VSCode](https://code.visualstudio.com/) and [Claude Code](https://code.claude.com/docs/en/overview).
+Agenta's template for Python projects that use [Cursor](https://cursor.com/en)/[VSCode](https://code.visualstudio.com/) and [Claude Code](https://code.claude.com/docs/en/overview).
 Uses [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [mypy](https://mypy-lang.org/).
 
 ## Prerequisites
@@ -147,7 +147,7 @@ To enable PyPI publishing:
    - Go to https://pypi.org/manage/account/publishing/
    - Add a new Pending Trusted Publisher:
      - **PyPI project name**: your-package-name
-     - **Owner**: A2ANet
+     - **Owner**: buildagenta
      - **Repository**: your-repo-name
      - **Workflow name**: `release-please.yml`
      - **Environment name**: `pypi`

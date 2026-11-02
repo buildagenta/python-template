@@ -11,7 +11,7 @@ requires-python = ">=3.13"
 license = "Apache-2.0"
 keywords = ["keyword1", "keyword2", "keyword3"]
 authors = [
-  { name = "A2A Net", email = "hello@a2anet.com" },
+  { name = "Agenta", email = "hello@buildagenta.com" },
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -30,9 +30,9 @@ dev = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/A2ANet/python-template#readme"
-Issues = "https://github.com/A2ANet/python-template/issues"
-Source = "https://github.com/A2ANet/python-template"
+Documentation = "https://github.com/buildagenta/python-template#readme"
+Issues = "https://github.com/buildagenta/python-template/issues"
+Source = "https://github.com/buildagenta/python-template"
 
 [tool.hatch.version]
 path = "src/your_package_name/__about__.py"
