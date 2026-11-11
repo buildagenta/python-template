@@ -34,6 +34,10 @@ Documentation = "https://github.com/buildagenta/python-template#readme"
 Issues = "https://github.com/buildagenta/python-template/issues"
 Source = "https://github.com/buildagenta/python-template"
 
+[tool.uv]
+# Every package must have been on its index for at least a week before it is locked.
+exclude-newer = "7 days"
+
 [tool.hatch.version]
 path = "src/your_package_name/__about__.py"
 
